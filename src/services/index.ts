@@ -1,0 +1,1 @@
+export { getNearbyRestaurants } from './restaurantService';

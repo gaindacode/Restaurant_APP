@@ -1,0 +1,37 @@
+[debug] [2024-12-20T05:17:47.374Z] ----------------------------------------------------------------------
+[debug] [2024-12-20T05:17:47.374Z] Command:       /usr/local/bin/node /home/project/node_modules/.bin/firebase emulators:start
+[debug] [2024-12-20T05:17:47.375Z] CLI Version:   13.29.1
+[debug] [2024-12-20T05:17:47.375Z] Platform:      linux
+[debug] [2024-12-20T05:17:47.375Z] Node Version:  v18.20.3
+[debug] [2024-12-20T05:17:47.375Z] Time:          Fri Dec 20 2024 00:17:47 GMT-0500 (Eastern Standard Time)
+[debug] [2024-12-20T05:17:47.375Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-20T05:17:47.376Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-12-20T05:17:47.410Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] Failed to authenticate, have you run firebase login?
+[warn] ⚠  emulators: You are not currently authenticated so some features may not work correctly. Please run firebase login to authenticate the CLI. 
+[debug] [2024-12-20T05:17:47.528Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: connect ECONNREFUSED 127.0.0.1:40001. If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[debug] [2024-12-20T05:17:47.538Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: connect ECONNREFUSED 127.0.0.1:40001. If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[debug] [2024-12-20T05:17:47.539Z] Error: spawn java ENOENT
+    at __node_internal_captureLargerStackTrace2 (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.ddb8d84d.js:101:5335)
+    at __node_internal_errnoException2 (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.ddb8d84d.js:101:6592)
+    at ChildProcess._handle.onexit (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.ddb8d84d.js:52:3320)
+    at https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/blitz.c8c182a3.js:40:198827
+[error] 
+[error] Error: Could not spawn `java -version`. Please make sure Java is installed and on your system PATH.
+[debug] [2024-12-20T05:17:47.546Z] Error: Unknown status code 530
+    at _0x15f259 (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/blitz.c8c182a3.js:40:921698)
+    at _0xb11093._readHeaders (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/blitz.c8c182a3.js:40:928299)
+    at _0xb11093.execute (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/blitz.c8c182a3.js:40:926226)
+    at Socket.socketOnData (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.ddb8d84d.js:3:6055)
+    at Socket.emit (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.ddb8d84d.js:30:10899)
+    at Socket.emit (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.ddb8d84d.js:29:5177)
+    at addChunk (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.ddb8d84d.js:225:3685)
+    at readableAddChunk (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.ddb8d84d.js:225:3393)
+    at Readable.push (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.ddb8d84d.js:225:4971)
+    at _0x26f354.onStreamRead [as onread] (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.ddb8d84d.js:211:2596)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-12-20T05:17:47.649Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-12-20T05:17:47.650Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
